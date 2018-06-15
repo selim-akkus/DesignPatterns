@@ -20,6 +20,7 @@ namespace Decorator
             Car klimaliAirBagliAraba = new AirBag(klimaliAraba);
             Console.WriteLine(klimaliAirBagliAraba.Price());
 
+
             Console.ReadKey();
         }
     }
