@@ -43,12 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AirBag.cs" />
-    <Compile Include="Bmw.cs" />
-    <Compile Include="Car.cs" />
-    <Compile Include="CarDecorator.cs" />
-    <Compile Include="Climate.cs" />
-    <Compile Include="Mercedes.cs" />
+    <Compile Include="CarSample\AirBag.cs" />
+    <Compile Include="CarSample\Bmw.cs" />
+    <Compile Include="CarSample\Car.cs" />
+    <Compile Include="CarSample\CarDecorator.cs" />
+    <Compile Include="CarSample\Climate.cs" />
+    <Compile Include="CarSample\Mercedes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

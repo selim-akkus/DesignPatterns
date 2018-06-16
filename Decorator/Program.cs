@@ -10,15 +10,15 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
-            Car araba = new Bmw();
-            araba.Aciklama = "Bmw";
-            Console.WriteLine(araba.Aciklama + " : " + araba.Price());
+            //Car araba = new Bmw();
+            //araba.Aciklama = "Bmw";
+            //Console.WriteLine(araba.Aciklama + " : " + araba.Price());
 
-            Car klimaliAraba = new Climate(araba);
-            Console.WriteLine(klimaliAraba.Price());
+            //Car klimaliAraba = new Climate(araba);
+            //Console.WriteLine(klimaliAraba.Price());
 
-            Car klimaliAirBagliAraba = new AirBag(klimaliAraba);
-            Console.WriteLine(klimaliAirBagliAraba.Price());
+            //Car klimaliAirBagliAraba = new AirBag(klimaliAraba);
+            //Console.WriteLine(klimaliAirBagliAraba.Price());
 
 
             Console.ReadKey();
